@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page 3</title>
+</head>
+
+<body>
+  
+  <center>
+    <h1>HTML TAGS THAT CAN BE USE FOR CREATING FORMS</h1>
+  </center>
+  <br><br>
+
+  <h4>Here are some examples of these kinds of tags:
+  </h4>
+  <br>
+
+  <ul>
+    <li>
+      <h3>INPUT/TEXTFIELD</h3>
+      This is an example of a text field: <br>
+      You can also put a label in it by using the label tag '< label >'<br>
+      or even a placeholder or set it to required, so the user doesn't skip it.<br> <br>
+
+      <form action="#" method="post">
+        <label for="first_name"><b>First Name:</b></label><br>
+        <input type="text" name="first_name" placeholder="Juan" required>
+      </form>
+      <br>
+      See code below: <br>
+      <img src="/assets/img/textfield_src-code.PNG" alt="textfield_src-code">
+      <br>
+      You can also make one for password, just change the input type into 'password'.
+      <br><br>
+      <form action="#" method="post">
+        <label for="pass_word"><b>Password:</b></label><br>
+        <input type="password" name="pass_word" required>
+      </form>
+      <br>
+    </li>
+    <br>
+
+    <li>
+      <h3>INPUT BUTTONS</h3>
+      There are many types of input button in html: <br>
+      <ul>
+        <li>
+          The submit button 
+          <form method="post">
+            <label for="full_name">Full Name:</label>
+            <input type="text" name="full_name">
+            <input type="submit" value="save" name="full_name">
+          </form>
+          <br>
+          See code below: <br>
+      <img src="/assets/img/submitbtn_src-code.PNG" alt="submitbtn_src-code">
+
+        </li>
+        <br>
+        <li>
+          The reset button:
+          <form method="post">
+            <label for="full_name">Full Name:</label>
+            <input type="text" name="full_name">
+            <input type="reset" value="clear" name="full_name">
+          </form>
+          <br>
+          See code below: <br>
+      <img src="/assets/img/resetbtn_src-code.PNG" alt="resetbtn_src-code">
+      
+        </li>
+        <br>
+        <li>
+          The regular button: <br>
+          Which you can enable and disable.
+          <form method="post">
+            <label for="full_name">Full Name:</label>
+            <input type="text" name="full_name">
+            <input type="button" value="enabled button" name="full_name">
+            <input disabled type="button" value="disabled button" name="full_name">
+          </form>
+          <br>
+          See code below: <br>
+      <img src="/assets/img/regularbtn_src-code.PNG" alt="regularbtn_src-code">
+        </li>
+        <br>
+        <li>
+          The radio buttons: <br>
+          What program or course are you enrolled in? <br>
+          <form method="post">
+            <input type="radio" id="bsit" name="Program" value="BSIT">
+            <label for="bsit">BSIT</label><br>
+            <input type="radio" id="bscs" name="Program" value="BSCS">
+            <label for="bscs">BSCS</label><br>
+            <input type="radio" id="bsis" name="Program" value="BSIS">
+            <label for="bsis">BSIS</label><br>
+          </form>
+          <br>
+          See code below: <br>
+      <img src="/assets/img/radiobtn_src-code.PNG" alt="radiobtn_src-code">
+        </li>
+      </ul>
+    </li>
+
+    <br>
+    <li>
+      <h3>CHECKBOXES</h3>
+      <br>
+          What program or course are you enrolled in? <br>
+          <form method="post">
+            <input type="checkbox" id="1st" name="1styr" value="1st Year">
+            <label for="1styr">1st Year</label><br>
+            <input type="checkbox" id="2nd" name="2ndyr" value="2nd Year">
+            <label for="2ndyr">2nd Year</label><br>
+            <input type="checkbox" id="3rd" name="3rdyr" value="3rd Year">
+            <label for="3rdyr">3rd Year</label><br>
+            <input type="checkbox" id="4th" name="4thyr" value="4th Year">
+            <label for="4thyr">4th Year</label><br>
+          </form>
+          <br>
+          See code below: <br>
+      <img src="/assets/img/checkboxes_src-code.PNG" alt="checkboxes_src-code">
+    </li>
+  </ul>
+    <br>
+
+
+
+
+  <center>
+    <a href="./index.html">
+      <button type="button"><b>Home</b></button>
+    </a>
+
+    <a href="./pageOne.html">
+      <button type="button"><b>1</b></button>
+    </a>
+    <a href="./pageTwo.html">
+      <button type="button"><b>2</b></button>
+    </a>
+    <a href="pageThree.html">
+      <button type="button"><b>3</b></button>
+    </a>
+    <a href="Credits.html">
+      <button type="button"><b>>></b></button>
+    </a>
+  </center>
+</body>
+</html>
