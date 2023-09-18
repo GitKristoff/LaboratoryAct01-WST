@@ -1,6 +1,6 @@
-
-[CodeCat](/assets/img/readmePic.jfif)
-
+<center>
+![CodeCat](/assets/img/readmePic.jfif)
+</center>
 
 # 💻Web Systems and Technologies: Activity Compilations
 
