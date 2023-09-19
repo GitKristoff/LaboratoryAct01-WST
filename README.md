@@ -1,3 +1,8 @@
+<p align="center">
+
+![CodingCat](/readmePic.jpeg)
+
+</p>
 
 # 💻Web Systems and Technologies: Activity Compilations
 
