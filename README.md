@@ -26,4 +26,5 @@ We would also like to acknowledge the tools and resources including:
 * [VISUAL STUDIO CODE](https://code.visualstudio.com/)
 * [GITHUB](https://github.com/)
 * [README.SO](https://readme.so/)
+* [GITHUB PAGES](https://pages.github.com/)
 
