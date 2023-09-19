@@ -1,6 +1,6 @@
 <p align="center">
 
-![CodingCat](/readmePic.jpeg)
+![CodingCat](./assets/img/readmePic.jpeg)
 
 </p>
 
