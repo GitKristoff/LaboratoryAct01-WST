@@ -14,10 +14,10 @@
 * 📍 Activity 2: Updating repository and Linking of pages.
 
 ## 👨‍💻 Members:
-* 👦 Kristoffer E. Ofalsa
-* 👦 John Mark Biñas
-* 👧 Kaye Nichole Gipit
-* 👧 Fareedah May Givero
+* 👦 [Kristoffer E. Ofalsa](https://www.facebook.com/profile.php?id=61550776802489)
+* 👦 [John Mark Biñas](https://www.facebook.com/profile.php?id=100012409356995)
+* 👧 [Kaye Nichole Gipit](https://www.facebook.com/kayenchl)
+* 👧 [Fareedah May Givero](https://www.facebook.com/fareedahmay.givero)
 
 ## Acknowledgement:
 We would like to acknowledgement our professor Mr. Anthony Gacis for guiding us in this subject this semester.
