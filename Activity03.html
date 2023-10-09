@@ -50,27 +50,27 @@
 
 <div class="menu2">
 <ul>
-  <li><a href="">
+  <li><a href="#positioning">
     <button id="positioning-btn" name="positioning-btn">
       Positioning
     </button>
   </a></li>
-  <li><a href="">
+  <li><a href="#psuedo">
     <button id="psuedoClass-btn" name="psuedoClass-btn">
       Psuedo Class
     </button>
   </a></li>
-  <li><a href="">
+  <li><a href="#shadows">
     <button id="txtAndBoxShadow-btn" name="txtAndBoxShadow-btn">
       Text & Box Shadow
     </button>
   </a></li>
-  <li><a href="">
+  <li><a href="#transform">
     <button id="transformation-btn" name="transformation-btn">
       Transformations
     </button>
   </a></li>
-  <li><a href="">
+  <li><a href="#animation">
     <button id="animation-btn" name="animation-btn">
       Animations
     </button>
@@ -84,7 +84,7 @@
 <p id="font-title">Fonts</p>
 <div class="f_description">
   <p>In CSS, we use the font-family property to specify the font of a text. <br><br>
-    The font-family property should hold several font names as a "fallback" system, to ensure maximum compatibility between browsers/operating systems. Start with the font you want, and end with a generic family (to let the browser pick a similar font in the generic family, if no other fonts are available). The font names should be separated with comma. Read more about fallback fonts in the next chapter.
+    The font-family property should hold several font names as a "fallback" system, to ensure maximum compatibility between browsers/operating systems. Start with the font you want, and end with a generic family (to let the browser pick a similar font in the generic family, if no other fonts are available). The font names should be separated with comma.
   </p>
 </div>
 <div class="font-types">
@@ -102,7 +102,7 @@
   <h1 id="txtBgColors-title">Text and <br>Background Colors</h1><br><br>
 
   <div class="box1"><br>
-    <p id="box1-title">WITH NO BACKGROUND<br>COLOR</p>
+    <p id="box1-title">NO BACKGROUND<br>COLOR</p>
     <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt doloremque molestias suscipit, possimus, minus iste rem necessitatibus delectus vel laborum, dignissimos temporibus culpa cupiditate ea repudiandae consequatur obcaecati minima enim?</div>
 
 
@@ -131,18 +131,109 @@
 </section>
 
 <section class="marginAndPadding" id="marginAndPadding">
-  <h1 id="marginAndPadding-title">MARGINS AND PADDINGS</h1><br><br>
+  <h1 id="marginAndPadding-title">MARGINS AND PADDINGS</h1><br>
   <center>
     <div id="sampleBox1">
+      <br><br>
       margin-top: 50px;
       margin-bottom: 50px;
       padding: 10px 12px;
     </div>
     <div id="sampleBox2">
-      margin-left: 100px;
+      margin-left: 100px;<br>
       padding-top: 30px;
     </div>
   </center>
+</section>
+
+<section class="positioning" id="positioning">
+  <h1 id="positioning-title">POSITIONING</h1><br><br>
+
+  <div class="box-relative"><br>
+    position: <mark>relative;</mark>
+    height: 200px;<br>
+    width: 200px;<br>
+    margin-top: 120px;<br>
+    margin-left: 45px;
+  </div>
+  <div class="box-absolute"><br>
+    position: <mark>absolute;</mark><br>
+    top: 704vh;<br>
+    left: 243px;
+  </div>
+  <div class="box-sticky"><br>
+    position: <mark>sticky;</mark><br>
+    top: 0px;<br>
+    bottom: 0px;<br>
+    left: 800px;
+  </div>
+</section>
+
+<section class="psuedo" id="psuedo">
+  <h1 id="psuedo-title">PSUEDO CLASS</h1><br><br>
+
+    <a href="https://www.google.com/" target="_blank">GOOGLE.COM</a>
+    <button type="button">HOVER ME</button>
+    
+</section>
+
+<section class="shadows" id="shadows">
+  <h1 id="shadows">TEXT and BOX SHADOWS</h1><br><br>
+  <p id="sample-text">TEXT</p>
+  <div id="shadowBox">
+    <center><br><br><br><h2>HOVER ME</h2></center>
+  </div>
+</section>
+
+<section class="transform" id="transform">
+  <h1 id="transform-title">TRANSFORMATION</h1><br><br>
+  <div id="translate">
+    <br><br>TRANSLATE
+  </div>
+
+  <div id="rotate">
+    <br><br>ROTATE
+  </div>
+
+  <div id="skew">
+    <br><br>SKEW
+  </div>
+</section>
+
+<section class="animation" id="animation">
+  <h1 id="animation-title">ANIMATIONS</h1><br><br>
+
+  <div class="run" id="run">
+    <video loop autoplay>
+      <source src="./assets/video/animation_gif.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="instruction" id="instruction">
+    <h4>CLICK IMAGE TO START</h4>
+  </div>
+
+  <div class="rotateAnimation" id="rotateAnimation">
+    <img src="./assets/img/animation-ball.jpg" alt="ball">
+  </div>
+</section>
+
+<section class="home" id="home">
+
+  <center>
+    <a href="./index.html">
+      <button type="button">
+        HOME
+      </button>
+    </a>
+    <a href="#homePage">
+      <button type="button">
+        TO TOP
+      </button>
+    </a>
+    
+  </center>
+
 </section>
 </body>
 </html>

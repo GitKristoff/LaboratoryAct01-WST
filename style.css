@@ -27,7 +27,7 @@
   height: 50px;
   width: 125px;
   position: relative;
-  top: 40px;
+  top: 0px;
   text-align: center;
   background:linear-gradient(darkslategrey, rgb(78, 74, 74));
   color: white;
@@ -38,7 +38,7 @@
   height: 50px;
   width: 125px;
   position: relative;
-  top: 40px;
+  top: 0px;
   text-align: center;
   background:linear-gradient(darkslategrey, rgb(78, 74, 74));
   color: white;
@@ -48,19 +48,21 @@
 
 .menu ul li{
   list-style: none;
-  padding: 8px 12px;
+  margin-left: 15px;
   display:inline-block;
   position: relative;
   left: 280px;
+  top: 40px;
   cursor: pointer;
 }
 
 .menu2 ul li{
   list-style: none;
-  padding: 8px 12px;
+  margin-left: 15px;
   display: inline-block;
   position: relative;
   left: 280px;
+  top: 50px;
   cursor: pointer;
 }
 /* FONTS */
@@ -303,4 +305,320 @@ background: linear-gradient(black, pink);
   color: white;
   text-align: center;
   font-size: 16px;
+}
+
+
+.positioning{
+  height: 650px;
+  width: 100%;
+  background: linear-gradient(black, grey);
+}
+.positioning h1{
+  position: relative;
+  text-align: center;
+  color: gold;
+  top: 50px;
+  font-size: 50px;
+}
+.positioning div{
+  display:grid;
+  float: left;
+  margin-top: 180px;
+  margin-left: 45px;
+}
+
+.box-relative{
+  position: relative;
+  left: 200px;
+  height: 200px;
+  width: 200px;
+  border: 5px ridge cornflowerblue;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.box-absolute{
+  position: absolute;
+  top: 704vh;
+  left: 475px;
+  height: 200px;
+  width: 200px;
+  border: 5px ridge chartreuse;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.box-sticky{
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+  left: 800px;
+  height: 200px;
+  width: 200px;
+  border: 5px ridge yellow;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* PSUEDO CLASS */
+.psuedo{
+  height: 650px;
+  width: 100%;
+  background: linear-gradient(grey, black); 
+}
+.psuedo h1{
+  position: relative;
+  text-align: center;
+  color: gold;
+  top: 50px;
+  font-size: 50px;
+}
+.psuedo a{
+  position: relative;
+  top: 100px;
+  left: 363px;
+  font-size: 80px;
+}
+.psuedo a:link{
+  color: springgreen;
+}
+.psuedo a:visited{
+  color:darkorchid;
+}
+.psuedo a:hover{
+  color: chartreuse;
+}
+.psuedo a:active{
+  color: crimson;
+}
+
+.psuedo button{
+  position: relative;
+  top: 300px;
+  right: 65px;
+  height: 70px;
+  width: 300px;
+  font-size: 40px;
+  background-color: steelblue;
+  color: white;
+}
+.psuedo button:hover{
+  background-color: crimson;
+  color:gold;
+}
+.psuedo button:active{
+  background-color: darkgrey;
+  color:white;
+}
+
+/* TEXT AND BOX SHADOWS */
+.shadows{
+  height: 650px;
+  width: 100%;
+  background: linear-gradient(black, grey); 
+}
+.shadows h1{
+  position: relative;
+  text-align: center;
+  color: gold;
+  top: 50px;
+  font-size: 50px;
+}
+#sample-text{
+position: relative;
+top: 250px;
+left: 350px;
+width: 260px;
+color: lawngreen;
+font-size: 100px;
+text-shadow: 0px 0px 5px darkred, 0px -5px 5px white;
+}
+
+#shadowBox{
+  height: 250px;
+  width: 300px;
+  border: 15px black double;
+  position: relative;
+  top: 35px;
+  left: 700px;
+  background-color: burlywood;
+}
+#shadowBox:hover{
+  box-shadow: 10px 15px 10px dodgerblue;
+}
+
+.shadows h2{
+  font-size: 50px;
+  color: crimson;
+}
+
+/* TRANSFORMATION */
+
+.transform{
+  height: 650px;
+  width: 100%;
+  background: linear-gradient(grey, black); 
+}
+.transform h1{
+  position: relative;
+  text-align: center;
+  color: gold;
+  top: 50px;
+  font-size: 50px;
+}
+
+.transform div{
+  height: 200px;
+  width: 200px;
+  border: 5px crimson dotted;
+  top: 100px;
+}
+#translate{
+  position: relative;
+  transform: translate(250px, 0px);
+  font-size: 30px;
+  text-align: center;
+  color: darkslateblue;
+  background-color:burlywood;
+}
+#rotate{
+  position: relative;
+  top: -100px;
+  left: 530px;
+  font-size: 30px;
+  text-align: center;
+  color: darkslateblue;
+  transform: rotateZ(180deg);
+  background-color:burlywood;
+}
+#skew{
+  position: relative;
+  top: -300px;
+  left: 820px;
+  font-size: 30px;
+  text-align: center;
+  color: darkslateblue;
+  transform: skew(20deg, 20deg);
+  background-color:burlywood;
+}
+
+/* ANIMATIONS */
+
+.animation{
+  height: 650px;
+  width: 100%;
+  background: linear-gradient(black, grey); 
+}
+.animation h1{
+  position: relative;
+  text-align: center;
+  color: gold;
+  top: 50px;
+  font-size: 50px;
+}
+.run{
+  height: 200px;
+  width: 98%;
+  position: relative;
+  margin-top: 80px;
+}
+.run video{
+  position: relative;
+  top: -25px;
+  left: 20px;
+  border-radius: 300px;
+  height: 200px;
+  width: 200px;
+}
+
+@keyframes runPika {
+  from{
+    margin-left: 0%;
+  }
+  to{
+    margin-left: 100%;
+  }
+}
+.run video:active{
+  animation: runPika;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+
+.rotateAnimation{
+  height: 200px;
+  width: 98%;
+}
+.rotateAnimation img{
+  position: relative;
+  top: 50px;
+  left: 20px;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+}
+
+@keyframes myRotate {
+  from{
+    transform: rotateZ(180deg);
+    margin-left: 0%;
+  }
+  to{
+    margin-left: 100%;
+  }
+}
+
+.rotateAnimation img:active{
+  animation-name: myRotate;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+.home{
+  height: 150px;
+  width: 100%;
+  background: linear-gradient(grey, black);
+}
+.home button{
+  position: relative;
+  top: 50px;
+  height: 40px;
+  width: 100px;
+  font-size: 16px;
+  border-radius: 10px;
+  color: gold;
+  background:linear-gradient(darkslategrey, rgb(78, 74, 74));
+}
+#instruction{
+  position: relative;
+  text-align: center;
+  color: white;
+  top: -10px;
+  left: 380px;
+  width: 500px;
+  font-size: 30px;
+
+  animation-name: mycolorChange;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+@keyframes mycolorChange {
+  20%{color:crimson;}
+  40%{color:orange ;}
+  60%{color:chartreuse ;}
+  80%{color:darkblue ;}
+  100%{color: palevioletred;}
 }
