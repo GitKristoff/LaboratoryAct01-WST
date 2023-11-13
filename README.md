@@ -13,6 +13,8 @@
 * 📍 Activity 1: HTML Tags
 * 📍 Activity 2: Updating repository and Linking of pages.
 * 📍 Activity 3: Usage of CSS.
+* 📍 Activity 4: Giving Valid Variable Names.
+
 
 ## 👨‍💻 Members:
 * 👦 [Kristoffer E. Ofalsa](https://www.facebook.com/profile.php?id=61550776802489)
