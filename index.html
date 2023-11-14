@@ -4,28 +4,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard</title>
+  <style>
+    body{
+      background-color: lightsteelblue;
+    }
+    h1{
+      color:navy;
+    }
+    p{
+      font-style: oblique;
+      font-size: 18px;
+      color:crimson;
+    }
+    .home-grid-container{
+      display: grid;
+      /* border: 1px red solid; */
+      width: 800px;
+      grid-template-columns: repeat(4, 200px) ;
+      grid-template-rows: repeat(2, 50px);
+      justify-items: center;
+      align-items: center;
+      justify-self: center;
+      padding-top: 30px;
+    } 
+    .menu-item-1 button{
+      height: 40px;
+      width: 150px;
+      border-radius: 30px;
+      background-color: gray;
+      color: white;
+    }
+    .menu-item-2 button{
+      height: 40px;
+      width: 150px;
+      border-radius: 30px;
+      background-color: gray;
+      color: white;
+    }
+    .menu-item-3 button{
+      height: 40px;
+      width: 150px;
+      border-radius: 30px;
+      background-color: gray;
+      color: white;
+    }
+    .menu-item-4 button{
+      height: 40px;
+      width: 150px;
+      border-radius: 30px;
+      background-color: gray;
+      color: white;
+    }
+  </style>
+
 </head>
 <body>
 
-<center>
+<center><br><br>
   <h1>WEB SYSTEMS AND TECHNOLOGIES</h1>
+  <p>(A compilation of activities)</p><br>
 </center>
 
-  List of Activities:
-
-  <ul>
-    <li>
-      <a href="Activity01.html">ACTIVITY 1</a>
-    </li>
-      <br>
-    <li>
-      <a href="Activity03.html">ACTIVITY 3</a>
-    </li>
-      <br>
-    <li>
-      <a href="Activity04.html">ACTIVITY 4</a>
-    </li>
-  </ul>
+<center>
+  <div class="home-grid-container">
+    <div class="menu-item-1">
+      <a href="Activity01.html">
+        <button>Activity 1</button>
+      </a>
+    </div>
+  
+    <div class="menu-item-2">
+      <button>Activity 2</button>
+    </div>
+  
+    <div class="menu-item-3">
+      <a href="Activity03.html">
+        <button>Activity 3</button>
+      </a>
+    </div>
+  
+    <div class="menu-item-4">
+      <a href="Activity04.html">
+        <button>Activity 4</button>
+      </a>
+    </div>
+  </div>
+</center>
   
 </body>
 </html>
